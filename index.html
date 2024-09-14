@@ -1,0 +1,15 @@
+<html>
+    <title>MySQL</title>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <script>
+        window.onload = function reload() {
+            let url = new URL(window.location.href);
+            let params = url.searchParams;
+            var mode = params.get('mode');
+            var id = params.get('id');
+            window.location.replace(`https://script.google.com/macros/s/AKfycbxKtoBN8L65MQNhY7AbvOz-xuqQRBS5GfBpKXX3NHmIK52HW_U3ildqsyPRF4ohiVhQ/exec?mode=${mode}&id=${id}`);
+        }
+    </script>
+</html>
